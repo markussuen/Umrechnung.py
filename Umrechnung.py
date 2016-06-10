@@ -22,17 +22,20 @@ def Kelvin():
         eingabe = float(entry.get())
         num_in_C = round(eingabe - 273.15,3)
         num_in_F = round(eingabe * 1.8 - 459.67,3)
-        text = Label (fenster, text=str(eingabe)+ "°K = "+ str(num_in_C)+ "°C" +
+        #text = Label (fenster, text=str(eingabe)+ "°K = "+ str(num_in_C)+ "°C" +
+        #"\n" + str(eingabe)+ "°K = " + str(num_in_F)+"°F")
+        #text.pack()
+        #fenster.mainloop()
+        print(str(eingabe)+ "°K = "+ str(num_in_C)+ "°C" +
         "\n" + str(eingabe)+ "°K = " + str(num_in_F)+"°F")
-        text.pack()
-        fenster.mainloop()
         
     except:
-        text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #""")
+        #text.pack()
+        #fenster.mainloop()
+        print("""Du musst eine Zahl in das Eingabefeld schreiben!
         """)
-        text.pack()
-        fenster.mainloop()
-    
 
 
 def Celsius():
@@ -40,36 +43,44 @@ def Celsius():
         eingabe = float(entry.get())
         num_in_K =  round(eingabe + 273.15,3)
         num_in_F = round(eingabe * 1.8 + 32,3)
-        text = Label (fenster, text=str(eingabe)+ "°C = "+str(num_in_K)+ "°K" +
+        #text = Label (fenster, text=str(eingabe)+ "°C = "+str(num_in_K)+ "°K" +
+        #"\n" + str(eingabe)+ "°C = " + str(num_in_F)+"°F")
+        #text.pack()
+        #fenster.mainloop()
+        print(str(eingabe)+ "°C = "+str(num_in_K)+ "°K" +
         "\n" + str(eingabe)+ "°C = " + str(num_in_F)+"°F")
-        text.pack()
-        fenster.mainloop()     
     except:
-        text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #""")
+        #text.pack()
+        #fenster.mainloop()
+        print("""Du musst eine Zahl in das Eingabefeld schreiben!
         """)
-        text.pack()
-        fenster.mainloop()
-    
 
 def Fahrenheit():
     try:
         eingabe = float(entry.get())
         num_in_C = round((eingabe - 32)*(5/9),3)
         num_in_K = round((eingabe + 459.67)*(5/9),3)
-        text = Label (fenster, text=str(eingabe)+ "°F = "+ str(num_in_C)+ "°C" +
+        #text = Label (fenster, text=str(eingabe)+ "°F = "+ str(num_in_C)+ "°C" +
+        #"\n" + str(eingabe)+ "°F = " + str(num_in_K)+"°K")
+        #text.pack()
+        #fenster.mainloop()
+        print(str(eingabe)+ "°F = "+ str(num_in_C)+ "°C" +
         "\n" + str(eingabe)+ "°F = " + str(num_in_K)+"°K")
-        text.pack()
-        fenster.mainloop()
     except:
-        text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
+        #""")
+        #text.pack()
+        #fenster.mainloop()
+        print("""Du musst eine Zahl in das Eingabefeld schreiben!
         """)
-        text.pack()
-        fenster.mainloop()
-
+        
 def close():
     exit()
     
 #def clear():
+    
 
    
 #Umrechnung
