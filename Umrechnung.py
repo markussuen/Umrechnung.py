@@ -27,7 +27,7 @@ def Kelvin():
         #text.pack()
         #fenster.mainloop()
         print(str(eingabe)+ "°K = "+ str(num_in_C)+ "°C" +
-        "\n" + str(eingabe)+ "°K = " + str(num_in_F)+"°F")
+        "\n" + str(eingabe)+ "°K = " + str(num_in_F)+"°F" + "\n")
         
     except:
         #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
@@ -48,7 +48,7 @@ def Celsius():
         #text.pack()
         #fenster.mainloop()
         print(str(eingabe)+ "°C = "+str(num_in_K)+ "°K" +
-        "\n" + str(eingabe)+ "°C = " + str(num_in_F)+"°F")
+        "\n" + str(eingabe)+ "°C = " + str(num_in_F)+"°F" + "\n")
     except:
         #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
         #""")
@@ -67,7 +67,7 @@ def Fahrenheit():
         #text.pack()
         #fenster.mainloop()
         print(str(eingabe)+ "°F = "+ str(num_in_C)+ "°C" +
-        "\n" + str(eingabe)+ "°F = " + str(num_in_K)+"°K")
+        "\n" + str(eingabe)+ "°F = " + str(num_in_K)+"°K" + "\n")
     except:
         #text = Label (fenster, text="""Du musst eine Zahl in das Eingabefeld schreiben!
         #""")
