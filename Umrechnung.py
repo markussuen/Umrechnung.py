@@ -2,7 +2,7 @@
 # Beschreibung: Script, um die Temperatur von einer Temperatureinheit(Kelvin,
 #               Celsius oder Fahrenheit) auf alle anderen zu brerechnen.
 # Autoren: Markus Sünkens & Bo-Cheng Yang
-# Datum: 10.06.16 (Änderung von Markus)
+# Datum: 12.06.16 (Änderung von Markus)
 
 from tkinter import *
 
